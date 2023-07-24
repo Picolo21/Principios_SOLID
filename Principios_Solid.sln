@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L - Liskov Substitution Pri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Srp", "Srp\Srp.csproj", "{17993C57-8D82-4BD6-8D87-F91A18594575}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Srp_Refactored", "Srp_Refactored\Srp_Refactored.csproj", "{19454AA8-30FA-40BB-AF74-89E4CDE57562}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,12 +27,17 @@ Global
 		{17993C57-8D82-4BD6-8D87-F91A18594575}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17993C57-8D82-4BD6-8D87-F91A18594575}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17993C57-8D82-4BD6-8D87-F91A18594575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19454AA8-30FA-40BB-AF74-89E4CDE57562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19454AA8-30FA-40BB-AF74-89E4CDE57562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19454AA8-30FA-40BB-AF74-89E4CDE57562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19454AA8-30FA-40BB-AF74-89E4CDE57562}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{17993C57-8D82-4BD6-8D87-F91A18594575} = {3106CCAD-5C3B-4A3E-A901-C0041EA44A0E}
+		{19454AA8-30FA-40BB-AF74-89E4CDE57562} = {3106CCAD-5C3B-4A3E-A901-C0041EA44A0E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C3F008A1-14F2-40D3-99C4-104003B88EFC}

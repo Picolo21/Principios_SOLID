@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Srp_Refactored.Entities;
 
 namespace Srp_Refactored.Utils
 {
-    internal class Notify
+    public class Notify
     {
+        public Notify(Customer customer)
+        {
+            Console.WriteLine("Notificando o cliente");
+        }
     }
 }

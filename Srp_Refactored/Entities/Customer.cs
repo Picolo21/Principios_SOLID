@@ -1,12 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Srp_Refactored.Entities
+﻿namespace Srp_Refactored.Entities
 {
-    internal class Customer
+    public class Customer
     {
+        public void CreateCustomer()
+        {
+        }
+
+        public void ReadCustomer()
+        {
+        }
+
+        public void UpdateCustomer()
+        {
+        }
+
+        public void DeleteCustomer()
+        {
+        }
     }
 }

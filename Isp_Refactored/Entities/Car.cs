@@ -1,16 +1,16 @@
-﻿using Isp.Contracts;
+﻿using Isp_Refactored.Contracts;
 using System.Globalization;
 
-namespace Isp.Entities
+namespace Isp_Refactored.Entities
 {
-    public class Car : IVehicle
+    public class Car : ICar
     {
         public Car(string color, int year, double engine, int seats, int doors)
         {
             ConfigureCar(color, year, engine, seats, doors);
         }
 
-        private string _color;
+        private string? _color;
         private int _year;
         private double _engine;
         private int _seats;
@@ -26,11 +26,6 @@ namespace Isp.Entities
 
             Console.WriteLine($"Criando um carro ano {_year}, motor {_engine.ToString("F1", CultureInfo.InvariantCulture)} da cor {_color}.");
             StartVehicle();
-        }
-
-        public void ConfigureMotorcycle(string color, int year, double engine)
-        {
-            
         }
 
         public void StartVehicle()

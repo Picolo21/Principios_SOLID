@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lsp_Refactored", "Lsp_Refac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isp", "Isp\Isp.csproj", "{67EC9A1C-98A8-4C2B-BF08-3D8637E395CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isp_Refactored", "Isp_Refactored\Isp_Refactored.csproj", "{C4644FE8-07A6-4ED4-92E4-72DEC54C63BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{67EC9A1C-98A8-4C2B-BF08-3D8637E395CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67EC9A1C-98A8-4C2B-BF08-3D8637E395CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67EC9A1C-98A8-4C2B-BF08-3D8637E395CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4644FE8-07A6-4ED4-92E4-72DEC54C63BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4644FE8-07A6-4ED4-92E4-72DEC54C63BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4644FE8-07A6-4ED4-92E4-72DEC54C63BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4644FE8-07A6-4ED4-92E4-72DEC54C63BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +79,7 @@ Global
 		{4B9BF0E4-C44F-4B7E-8EA5-FE9B5C586443} = {F78C00E0-4745-4609-B965-E7CC6E675779}
 		{5AD72DF6-B020-4578-AAB1-603502EFBB94} = {F78C00E0-4745-4609-B965-E7CC6E675779}
 		{67EC9A1C-98A8-4C2B-BF08-3D8637E395CA} = {BC6A19B4-6265-4DD2-A53C-378D98DBA45A}
+		{C4644FE8-07A6-4ED4-92E4-72DEC54C63BC} = {BC6A19B4-6265-4DD2-A53C-378D98DBA45A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C3F008A1-14F2-40D3-99C4-104003B88EFC}
